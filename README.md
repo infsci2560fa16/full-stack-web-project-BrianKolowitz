@@ -38,3 +38,11 @@ $ heroku open
 For more information about using Java on Heroku, see these Dev Center articles:
 
 - [Java on Heroku](https://devcenter.heroku.com/categories/java)
+
+# Additional Notes
+
+## pull a database from heroku to local
+```heroku pg:pull DATABASE_URL mylocaldb --app fsw-bk``` 
+
+## push a database from local to heroku
+```heroku pg:push mylocaldb DATABASE_URL --app fsw-bk```
