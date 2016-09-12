@@ -3,7 +3,7 @@
 
 ################################# maven
 target/
-.env
+.env*
 /target-grunt/
 
 pom.xml.tag
