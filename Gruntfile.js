@@ -1,7 +1,6 @@
 module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    
     srcFolder: 'src/main/resources',
     testFolder: 'src/test/resources',
     distFolder: 'target/classes',
