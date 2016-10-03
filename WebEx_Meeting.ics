@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 10.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Eastern Time
+BEGIN:STANDARD
+DTSTART:20141101T020000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:Standard Time
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20140301T020000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:Daylight Savings Time
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="BRIAN KOLOWITZ";ROLE=REQ-PARTICIPANT;RSVP=FALSE:MAILTO:kolowitzbj@upmc.edu
+ORGANIZER;CN="webex":MAILTO:messenger@webex.com
+DTSTART;TZID="Eastern Time":20160929T140000
+DTEND;TZID="Eastern Time":20160929T150000
+LOCATION:https://upmcmin.webex.com/upmcmin
+TRANSP:OPAQUE
+SEQUENCE:1474220986
+UID:498d675b-4aa8-46c4-8de9-015dcf26cf89
+DTSTAMP:20160929T180000Z
+DESCRIPTION:\nHost key: 812835\n\n\nJOIN WEBEX MEETING\nhttps://upmcmin.webex.com/upmcmin/j.php?MTID=mfb26cafc7a0df4ee3b37322583b519a6\nMeeting number: 598 034 290\n\n\nJOIN BY PHONE\nConference dial-in number: 1-8887448762  (US)\nShow global numbers:\nhttps://conf.cfer.com/?an=8887448762&ac=6924397&startview=gos&login=true\nChairperson Passcode: 7934\nAccess Code: 692 439 7\n\n\n\n\nCan't join the meeting? Contact support here:\nhttps://upmcmin.webex.com/upmcmin/mc\n\n\nIMPORTANT NOTICE: Please note that this WebEx service allows audio and other information sent during the session to be recorded, which may be discoverable in a legal matter. You should inform all meeting attendees prior to recording if you intend to record the meeting.\n
+X-ALT-DESC;FMTTYPE=text/html:	<FONT SIZE="1" FACE="ARIAL"><FONT SIZE="2" COLOR="#666666" FACE="Arial"> &nbsp;<BR>Host key: 812835</FONT>&nbsp;<BR>&nbsp;<BR>&nbsp;<BR> <FONT SIZE="4" FACE="ARIAL">		<a					href="https://upmcmin.webex.com/upmcmin/j.php?MTID=mfb26cafc7a0df4ee3b37322583b519a6"><FONT SIZE="3" COLOR="#00AFF9" FACE="Arial">Join WebEx meeting</FONT></a>			<table>				<tr>					<td>						<FONT SIZE="2" COLOR="#666666" FACE="arial">Meeting number:</FONT>					</td>					<td>						<FONT SIZE="2" COLOR="#666666" FACE="arial">598 034 290</FONT>					</td>				</tr>			</table>					</FONT><FONT SIZE="1" FACE="ARIAL">&nbsp;<BR>&nbsp;<BR></FONT><FONT SIZE="4" FACE="ARIAL"><FONT SIZE="3" COLOR="#666666" FACE="arial">Join by phone</FONT>&nbsp; <BR><FONT SIZE="2" COLOR="#666666" FACE="arial">Conference dial-in number:&nbsp;1-8887448762  (US)</FONT>&nbsp; <BR><FONT SIZE="2" COLOR="#666666" FACE="arial"><a href="https://conf.cfer.com/?an=8887448762&ac=6924397&startview=gos&login=true"><FONT SIZE="2" COLOR="#00AFF9" FACE="arial">Show global numbers</FONT></a></FONT>&nbsp; <BR><FONT SIZE="2" COLOR="#666666" FACE="arial">Chairperson Passcode: 7934</FONT>&nbsp; <BR><FONT SIZE="2" COLOR="#666666" FACE="arial">Access Code: 692 439 7</FONT>&nbsp; <BR></FONT><BR><BR>	&nbsp;<BR>	<FONT SIZE="1" COLOR="#666666" FACE="arial">				Can't join the meeting?</FONT>	<a href="https://upmcmin.webex.com/upmcmin/mc">	<FONT SIZE="1" COLOR="#00AFF9" FACE="Arial">Contact support.</FONT></a>	&nbsp;<BR>&nbsp;<BR><FONT COLOR="#A0A0A0" size="1" FACE="arial">IMPORTANT NOTICE: Please note that this WebEx service allows audio and other information sent during the session to be recorded, which may be discoverable in a legal matter. You should inform all meeting attendees prior to recording if you intend to record the meeting.</FONT></FONT>
+SUMMARY:Demo for UPMC
+PRIORITY:5
+CLASS:PUBLIC
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
