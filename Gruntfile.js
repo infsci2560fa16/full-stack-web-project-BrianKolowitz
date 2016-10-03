@@ -8,7 +8,7 @@ module.exports = function(grunt) {
       options: {
         reset: grunt.option('reset') || true,
         stoponerror: false,
-        failHard: false,
+        failHard: true,
         generateReport: true,
         useTimeStamp: true,
         errorHTMLRootDir: 'w3c',
